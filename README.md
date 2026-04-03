@@ -1,59 +1,99 @@
-# WorkTracker
+# 🚀 Smart Work Tracker Dashboard
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.6.
+A modern Angular-based dashboard for tracking employee attendance, work logs, and productivity.
 
-## Development server
+This project is being built step-by-step as a real-world application using Angular (standalone components) with future backend integration.
 
-To start a local development server, run:
+---
 
-```bash
+## 📌 Current Features
+
+* ✅ Dashboard layout (Sidebar + Header)
+* ✅ Routing setup (Angular standalone)
+* ✅ Stats cards (basic UI)
+* ✅ Component-based architecture
+
+---
+
+## 🧱 Tech Stack
+
+* Angular (Latest - Standalone Components)
+* TypeScript
+* HTML & CSS
+* Git & GitHub
+
+---
+
+## 📁 Project Structure
+
+```
+src/app/
+  layout/
+    header/
+    sidebar/
+    layout/
+  pages/
+    dashboard/
+```
+
+---
+
+## ▶️ How to Run the Project
+
+1. Install dependencies:
+
+```
+npm install
+```
+
+2. Start development server:
+
+```
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+3. Open in browser:
 
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
+```
+http://localhost:4200/
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+---
 
-```bash
-ng generate --help
-```
+## 🧠 What I Learned
 
-## Building
+* Angular standalone architecture
+* Component communication & structure
+* Routing and layout setup
+* Fixing real-world setup issues (Node, Git, PowerShell)
+* Debugging import and path issues
 
-To build the project run:
+---
 
-```bash
-ng build
-```
+## 🔥 Upcoming Features
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+* ⏱ Attendance system (Check-in / Check-out)
+* 📝 Work Logs tracking
+* ✅ Manager approval workflow
+* 👥 User role management (Admin / Employee)
+* 🔐 Authentication system
+* 🌐 Backend integration (Node.js + MongoDB)
+* 🧪 Automation testing (Cypress / Playwright)
 
-## Running unit tests
+---
 
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+## 📸 UI Preview
 
-```bash
-ng test
-```
+Basic dashboard layout with sidebar navigation and stat cards.
 
-## Running end-to-end tests
+---
 
-For end-to-end (e2e) testing, run:
+## 👤 Author
 
-```bash
-ng e2e
-```
+**Prathmesh**
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+---
 
-## Additional Resources
+## ⚠️ Note
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+This project is under active development and will be continuously improved with new features and better UI.
